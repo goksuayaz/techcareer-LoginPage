@@ -1,10 +1,18 @@
+body {
+    display: flex;
+    justify-content: center;
+    background-image: url(../Assets/images/ui.png);
+    background-size: cover;
+}
+
 .container {
+    background-color: #fff;
     display: flex;
     flex-direction: column;
     margin: auto;
-    margin-top: 150px;
-    width: 600px;
-    padding-bottom: 30;
+    margin-top: 180px;
+    width: 550px;
+    height: 600px;
 
 }
 
@@ -13,14 +21,14 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 100%;
 }
 
 .text {
-    color: #232323;
+    color: black;
     font-size: 28px;
     font-weight: 600;
-    margin-right: 100px;
+    margin-right: 120px;
+    margin-top: 30px;
 
 }
 
@@ -89,7 +97,7 @@
 }
 
 .input input {
-
+    background: transparent;
     border: transparent;
     outline: none;
     font-size: 15px;
@@ -97,9 +105,9 @@
 }
 
 .forgot-password {
-    margin-left: 90px;
+    margin-left: 60px;
     margin-top: 10px;
-    color: #232323;
+    color: black;
     font-size: 18px;
 
 }
