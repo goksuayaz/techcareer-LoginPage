@@ -13,9 +13,7 @@ body {
     margin-top: 180px;
     width: 550px;
     height: 600px;
-
 }
-
 
 .header {
     display: flex;
@@ -52,9 +50,8 @@ body {
     background-color: rgb(246, 246, 246);
     cursor: pointer;
 
-
-
 }
+
 
 .social-media text:hover,
 .social-media text:focus {
@@ -81,7 +78,6 @@ body {
     border-radius: 12px;
     transition: border-color 0.3s ease, box-shadow 0.3s ease;
 
-
 }
 
 .input:hover {
@@ -96,11 +92,13 @@ body {
 
 }
 
+
 .input input {
     background: transparent;
     border: transparent;
     outline: none;
     font-size: 15px;
+    margin-left: 15px;
 
 }
 
